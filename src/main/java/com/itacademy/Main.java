@@ -4,6 +4,7 @@ public class Main
 {
     public static void main( String[] args ) {
         Car car1 = new Car("Model1");
+        int a = 0;
 //        car1.height = 200;
 //        car1.weight = 3000;
         Car car2 = new Car("Model2");
