@@ -21,7 +21,7 @@ public class Bus extends Transport implements Interface1, Interface3{
 
     @Override
     public void quantityOfDoors() {
-        
+
     }
 
     @Override
