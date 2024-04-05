@@ -1,6 +1,6 @@
 package com.itacademy;
 
-public final class Car extends Transport {
+public final class Car extends Transport implements Interface2, Interface3{
     final int speed = 200;
     public final void drive() {
         System.out.println("Car is ok");
@@ -9,7 +9,7 @@ public final class Car extends Transport {
         super(modelName);
     }
     @Override
-    public void move(){
+    public void move(Transport car3){
         System.out.println("Move car");
     }
     @Override
@@ -17,8 +17,26 @@ public final class Car extends Transport {
         System.out.println("Car is moving");
     }
     public Car (Engine engine, Battery radiator, Radiator battery){
-
         super(engine, radiator, battery);
     }
 
+    @Override
+    public void uniqueCarMethod() {
+
+    }
+
+    @Override
+    public void uniqueCarMethod2() {
+
+    }
+
+    @Override
+    public void quantityOfDoors() {
+
+    }
+
+    @Override
+    public void methodForCarBus() {
+
+    }
 }

@@ -22,7 +22,7 @@ public abstract class Transport {
         public void printInfo(int height) {
         System.out.println("Метод принимает int");
         }
-        public abstract void move();
+        public abstract void move(Transport car3);
         public void move2() {
             System.out.println("Transport is moving");
         }
@@ -34,9 +34,9 @@ public abstract class Transport {
             model = modelName;
         }
         public int getMaxSpeed() {
-        return maxSpeed;
+            return maxSpeed;
     }
         public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
+            this.maxSpeed = maxSpeed;
     }
 }
