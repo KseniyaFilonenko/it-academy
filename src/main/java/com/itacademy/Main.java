@@ -11,6 +11,9 @@ public class Main
         Transport car3 = new Car("Model3");
         Transport bus3 = new Bus("Bus3");
         car3.move(car3);
+        car1.uniqueCarMethod2();
+        car1.methodForCarBus();
+        bus1.methodForCarBus();
 
         Transport transport = getTransport(true);
 

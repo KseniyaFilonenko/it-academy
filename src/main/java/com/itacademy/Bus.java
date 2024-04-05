@@ -1,6 +1,6 @@
 package com.itacademy;
 
-public class Bus extends Transport implements Interface1, Interface3{
+public class Bus extends Transport implements Interface1, Interface3 {
     public Bus (String modelName) {
         super(modelName);
     }
@@ -15,17 +15,7 @@ public class Bus extends Transport implements Interface1, Interface3{
     }
 
     @Override
-    public void calculateStops() {
-
-    }
-
-    @Override
     public void quantityOfDoors() {
-
-    }
-
-    @Override
-    public void methodForCarBus() {
 
     }
 }
