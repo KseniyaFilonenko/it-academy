@@ -1,4 +1,4 @@
-package com.itacademy;
+package com.itacademy.Hometask6;
 
 public interface Interface2 {
     public void uniqueCarMethod();

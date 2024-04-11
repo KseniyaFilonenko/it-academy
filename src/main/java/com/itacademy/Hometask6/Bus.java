@@ -1,4 +1,4 @@
-package com.itacademy;
+package com.itacademy.Hometask6;
 
 public class Bus extends Transport implements Interface1, Interface3 {
     public Bus (String modelName) {

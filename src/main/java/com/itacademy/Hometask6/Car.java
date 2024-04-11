@@ -1,4 +1,4 @@
-package com.itacademy;
+package com.itacademy.Hometask6;
 
 public final class Car extends Transport implements Interface2, Interface3 {
     final int speed = 200;

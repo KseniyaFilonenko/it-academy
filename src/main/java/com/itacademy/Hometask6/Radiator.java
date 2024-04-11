@@ -1,4 +1,4 @@
-package com.itacademy;
+package com.itacademy.Hometask6;
 
 public class Radiator {
     private int radiator;
